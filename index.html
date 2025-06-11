@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Ahmad Fadholi</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f2f2f2;
+      color: #333;
+    }
+
+    header {
+      background-color: #007BFF;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    .container {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+
+    h2 {
+      color: #007BFF;
+    }
+
+    .button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #28a745;
+      border: none;
+      color: white;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .button:hover {
+      background-color: #218838;
+    }
+
+    .message {
+      margin-top: 20px;
+      font-style: italic;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ahmad Fadholi</h1>
+    <p>Mahasiswa Pendidikan Teknologi Informasi - Universitas Lampung</p>
+  </header>
+
+  <div class="container">
+    <h2>Tentang Saya</h2>
+    <p>Halo! Nama saya Ahmad Fadholi, seorang mahasiswa dari Program Studi Pendidikan Teknologi Informasi di Universitas Lampung.</p>
+
+    <h2>Hobi</h2>
+    <p>Selain minat di bidang teknologi, saya memiliki minat di bidang olahraga, khususnya berenang dan atletik.</p>
+
+    <h2>Harapan</h2>
+    <p>Saya berharap bisa mendapatkan ilmu yang bermanfaat bagi diri saya dan orang lain serta mendapatkan keberkahan dari ilmu tersebut.</p>
+
+    <h2>Daftar Tugas</h2>
+    <ul>
+      <li>  Tugas 1: <a href="https://drive.google.com/drive/folders/1Y55e5bHN_b5BM7IFjO1cFjNCKH-t9PUy"> Tokoh-Tokoh Grafika Komputer</li></a>
+      <li>Tugas 2: <a href="https://drive.google.com/drive/folders/1doRnNuBJL8l6lBphaG-3pvW8CtXj772h"> Algoritma Pembentukan Garis</li></a>
+      <li>Tugas 3: <a href="https://drive.google.com/drive/folders/1fuVKBQmV3psb0OSKszHUonVP279lZIqj"> Algoritma Lingkaran</li></a>
+      <li>Tugas 4: <a href="https://drive.google.com/drive/folders/1rSqz89pyPvDDkvvi2SYkqL_xI80nr0z_"> Algoritma Kurva Bezier</li></a>
+      <li>Kuis 1: <a href="https://drive.google.com/drive/folders/175qyriZL_5D-kRXT7-pj8rpKacoXFhwq"> Persamaan Misteri</li></a>
+      <li>Kuis 2: <a href="https://drive.google.com/drive/folders/12zE_peHITqq4ZfCywWDb-WErmAmVE5Jp"> Transformasi 2D</li></a>
+      <li>Kuis 3: <a href="https://drive.google.com/drive/folders/13EwlNI9h0a7eRcHPRoDUKWIq-1wXXDI6"> Clipping Algorithm</li></a>
+      <li>Kuis 4: <a href="https://drive.google.com/drive/folders/14NPPLMIG9ouNc2Mb76b3btRxQagmD1PF"> Polygon Clipping</li></a>
+    </ul>
+
+    <button class="button" onclick="showMessage()">Tampilkan Pesan Semangat</button>
+    <div class="message" id="motivasi"></div>
+  </div>
+
+  <script>
+    function showMessage() {
+      document.getElementById('motivasi').textContent = "Terus belajar dan jangan menyerah, karena padi yang dipanen hari ini tidak ditanam kemaren sore, TETAP SEMANGAT ABANGKUU!!!";
+    }
+  </script>
+</body>
+</html>
